@@ -6,7 +6,7 @@ Harman Brar
 
 Master of Digital Media
 
-DG002: Digital Media Environments (Programming)
+DG002: Digital Media Environments 
 
 Professor Khan
 
