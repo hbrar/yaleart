@@ -1,0 +1,429 @@
+
+
+/*----Main/Global----*/
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000; }
+
+  a {
+    color: #000000; }
+  }
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none; }
+  color: #000000; }
+
+a:focus,
+a:hover {
+  text-decoration: none; 
+color: #000000; }
+
+i,
+span,
+a {
+  display: inline-block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'helvetica', serif;
+  font-weight: 700;
+  color: #000000;
+  margin: 0px; }
+  
+
+
+  h5 a{ color:#000000;
+   }
+
+h5 a:hover
+{ color:#000000;
+   }
+
+h1 {
+  font-size: 60px; }
+
+h2 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 20px; 
+
+line height:20px;}
+
+h4 {
+  font-size: 20px;
+  color:#; 
+
+  font-weight:bold;}
+
+  h4 a{
+  font-size: 20px; 
+ 
+  font-weight:normal;
+}
+
+h5 {
+  font-size: 12px;
+  font-family: helvetica; }
+
+h6 {
+  font-size: 22px; 
+  font-weight:normal;}
+
+#footer{
+  font-size:11px;
+  color:#666666;
+}
+
+/*----Navigation----*/
+
+.navBar{
+  background-color: #ffffff; 
+  overflow: hidden;
+  border-bottom: dotted 1px #0a1039;
+  position:fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  z-index: 10; /* Makes navbar star sticky on top */
+}
+
+.navBar a{
+  float: left;
+  color: #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height:22px;
+  font-family: Helvetica;
+  text-transform: uppercase;
+}
+
+.navBar a:hover{
+  background-color: red;
+  color: #0a1039;
+}
+
+/*Hides the menu Icon which will show when the nav needs to be responsive*/
+.navBar .icon{
+  display: none;
+}
+
+@media (max-width: 700px){
+
+  .navBar a:not(:first-child){
+    display: none;
+  }
+
+  .navBar a.icon{
+    display: block; float: right;
+  }
+
+  .navBar.responsive {
+    position: relative;
+  }
+  .navBar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .navBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+/*----Page Elements----*/
+}
+.main1{
+  width:500px;
+  height:200px;
+  padding:15px;
+  background-color: red;
+  margin-top:140px;
+  margin-left:60px;
+  position:absolute;
+  float:left;
+  
+}
+
+.main{
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+
+.mainimage{
+padding-top:10px;
+z-index: 2;
+}
+
+
+
+.button {
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button a{
+  font-size: 16px;
+  font-color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button a hover{
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.yale1{
+  margin-top:140px;
+  margin-left:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  width:350px;
+  height:240px;
+  position:absolute;
+  z-index: 1;
+  border: 30px red solid;
+  background-color:#ffffff;
+}
+
+  .mission
+    {
+    position:absolute;
+    width:450px;
+    float:right;
+  margin-left:650px;
+
+  padding:40px;
+      z-index:1;
+     
+     
+    }
+    missionimages{
+      width:200px;
+      position:relative;
+      float:left;
+    }
+    .missionimage1
+    {
+      float:left;
+       z-index:2;
+       position:relative;
+       margin-left:-250px;
+       margin-top:50px;
+     
+      
+    }
+    .missionimage2
+    {
+      float:left;
+      margin-left:20px;
+      z-index:3;
+      
+}
+
+.programs
+    {
+    position:relative;
+    width:90%;
+    
+  margin-left:0px;
+
+  padding:20px;
+      z-index:1;
+     
+}
+
+
+.footer
+{
+  border-top:1px solid #666666;
+  padding:5px;
+}
+ 
+/*----Form---*/
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #fcf2f8;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #faf5f7;
+  outline: none;
+}
+
+hr {
+  border: 2px solid #eeb4d2;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #2b1769;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 90%; /* Full width */
+  height: 90%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 70%; /* Could be more or less, depending on screen size */
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+/* Table */
+
+    table {
+      border-collapse: collapse;
+     
+      width:100%;
+    }
+    
+    #topleft, #bottomright {
+      padding-top:10px;
+       padding-bottom:10px;
+       padding-left:10px;
+       padding-right:10px;
+    }
+    
+    #topleft {
+        border-left-style: none;
+        border-top-style: none;
+         padding-top:10px;
+       padding-bottom:10px;
+       padding-left:10px;
+       padding-right:10px;
+    }
+
+    #topright {
+        border-left-style: none;
+        border-top-style: none;
+         padding-top:10px;
+       padding-bottom:10px;
+       padding-left:10px;
+       padding-right:10px;
+    }
+    
+    #bottomright {
+      border-right-style: none;
+      border-bottom-style: none;
+       padding-top:10px;
+       padding-bottom:10px;
+       padding-left:10px;
+       padding-right:10px;
+    }
+
+
+
+/*-----------------------------*/
+/*  Yale School of Art         */
+/*  Bad website redesign       */
+/*  Programming DG8002         */
+/*  Harman Brar   2019         */
+/*-----------------------------*/
+
